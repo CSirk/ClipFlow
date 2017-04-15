@@ -1,0 +1,17 @@
+Left Click to add to clip flow
+right click to display list of items
+	- left click to copy to clipboard
+	- right click to remove from clipflow
+double click (or hold on left) to open configuration
+	- Menu Form? - controls config file
+		- Number of items to hold (default = no limit)
+		- Sort Order (most recent, alphabetical)
+		- Theme colors
+		- Remove on select (remove item from ClipFlow when select from list)
+		- Exit ClipFlow
+		- About ClipFlow (redirect to www.code.streetsofsmashville.com/clipflow
+
+Clipflow browser - future web browser			
+	
+Make Icon
+Add Download Link to Streetsofsmashville.com

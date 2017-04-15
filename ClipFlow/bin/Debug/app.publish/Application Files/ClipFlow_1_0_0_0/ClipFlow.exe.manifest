@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ClipFlow.exe" version="1.0.0.0" publicKeyToken="26ef34aff626aa49" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ClipFlow" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ClipFlow.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClipFlow.exe" size="9120">
+      <assemblyIdentity name="ClipFlow" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7q3sDkVcsDP745dc+pGhE5a4Hs7wDSRCtPI9bNtfWCk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ClipFlow.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=X120E\Cody" issuerKeyHash="1c89551f73f7038bfd00deac75697edc471accf5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wqDuFpj9WGNQxydDfkqx2q2+7O7eBFDpphMMb9ZrwiA=</DigestValue></Reference></SignedInfo><SignatureValue>g5LKHI6JdIkFGCH+cBK5ESjyTGS9hCtzCILn5FQqfCuV/CKQ9mJqW+BnpXaAq9Rjjh30JbGFeoFAnHG69A/SiQyNX9pF5rFOV/DNw97NGo3QVN8752QNFXdjsQsapZLDdE5XXosMR540ONtZcBAnN5sBwP8N/YwpkNPkAEF601E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sQi41LPMQtJLUkvQ391Y0vHrVvFUCHP2ITCaYZCv0ED5/R/NYLRjCa/P2gyl1AbR2YyqOAI6VzQ1R4/qAPx8CuMZ4S02/fBqb+TjOgGbYcuGNoqRmk1Nk31DdoWjAG2tjvL4ZhOZnizD6lGYn9mWT07lv/haSTrhqSZ3i5dAwPM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="20c26bd66f0c13a6e95004deeeecbeaddab14a7e4327c7506358fd9816eea0c2" Description="" Url=""><as:assemblyIdentity name="ClipFlow.exe" version="1.0.0.0" publicKeyToken="26ef34aff626aa49" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=X120E\Cody</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5XtxxTgaljrLoUGUmUly6l8UR4MqVcJ9vtND0pexndE=</DigestValue></Reference></SignedInfo><SignatureValue>X5p7mCggsEOxEnrpDtx4dlSh3QwGsO5Wt7YwP0cBO8B+sk8R4F78fq6weHK6kDfIp5yrQEtEtZ4AhEu+MXR0KH6w+1qFIS4mBiUCUCg/rnzNVAYm/P/az197s6gJVpUMrO/UFEcXhrHr4bZuoodIILHGwZUoDSf/lwDCK29mP3Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sQi41LPMQtJLUkvQ391Y0vHrVvFUCHP2ITCaYZCv0ED5/R/NYLRjCa/P2gyl1AbR2YyqOAI6VzQ1R4/qAPx8CuMZ4S02/fBqb+TjOgGbYcuGNoqRmk1Nk31DdoWjAG2tjvL4ZhOZnizD6lGYn9mWT07lv/haSTrhqSZ3i5dAwPM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQKne2Rab+n69MwI9MfPGi+TANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAWAAxADIAMABFAFwAQwBvAGQAeTAeFw0xNzAyMDkwMzQ1MjlaFw0xODAyMDkwOTQ1MjlaMB8xHTAbBgNVBAMeFABYADEAMgAwAEUAXABDAG8AZAB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxCLjUs8xC0ktSS9Df3VjS8etW8VQIc/YhMJphkK/QQPn9H81gtGMJr8/aDKXUBtHZjKo4AjpXNDVHj+oA/HwK4xnhLTb98Gpv5OM6AZthy4Y2ipGaTU2TfUN2haMAba2O8vhmE5meLMPqUZif2ZZPTuW/+FpJOuGpJneLl0DA8wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG9+ulMJXD8Vwc4DftR2xuHYka41wG5cx3lgf54NHuad37dXuacCWpNG3OPv9Ca3ulB6gUduIMwVsr2BMOR2ikCYrzHW6DVXyfcB5KGWWtlHTLl3vIsLNSE56y1FgLEpGWlMB5Mtt7GcWoodhxsXJfkvm+mV/mBI0qf0d6xj2Hlq</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
